@@ -14,6 +14,7 @@ const loginUserController = require('./controllers/loginUser');
 const showUserController = require('./controllers/showUser');
 const logoutController = require('./controllers/logout');*/
 const route = require('./routes');
+// start a express app
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
